@@ -8,7 +8,7 @@ android:layout_height="match_parent">
 
 <GridLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:columnCount="1"
     android:rowCount="2"
     android:alignmentMode="alignMargins"
@@ -31,26 +31,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/so"
+                android:id="@+id/soro_oo"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_1"
+                android:src="@raw/soro_o"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/ojogor"
+                android:id="@+id/soro_oo_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/a15"
+                android:src="@raw/soro_ojogor"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -77,26 +73,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/sa"
+                android:id="@+id/soro_aa"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_2"
+                android:src="@raw/soro_a"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/am"
+                android:id="@+id/soro_aa_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/aam"
+                android:src="@raw/soro_apel"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -122,26 +114,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/sa"
+                android:id="@+id/soro_i"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_3"
+                android:src="@raw/soro_i"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/am"
+                android:id="@+id/soro_i_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/aam"
+                android:src="@raw/soro_idur"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -167,26 +155,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/sa"
+                android:id="@+id/soro_I"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_4"
+                android:src="@raw/soro_ai"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/am"
+                android:id="@+id/soro_I_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/aam"
+                android:src="@raw/soro_eagle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -212,26 +196,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/sa"
+                android:id="@+id/soro_u"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_5"
+                android:src="@raw/soro_u"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/am"
+                android:id="@+id/soro_u_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/aam"
+                android:src="@raw/soro_ut"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -257,26 +237,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/sa"
+                android:id="@+id/soro_au"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_6"
+                android:src="@raw/soro_au"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/am"
+                android:id="@+id/soro_au_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/aam"
+                android:src="@raw/soro_usha"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -302,26 +278,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/sa"
+                android:id="@+id/soro_ri"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_7"
+                android:src="@raw/soro_ri"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/am"
+                android:id="@+id/soro_ri_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/aam"
+                android:src="@raw/soro_rishi"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -347,26 +319,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/sa"
+                android:id="@+id/soro_e"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_8"
+                android:src="@raw/soro_aa"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/am"
+                android:id="@+id/soro_e_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/aam"
+                android:src="@raw/soro_ektara"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -392,26 +360,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/sa"
+                android:id="@+id/soro_oi"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_9"
+                android:src="@raw/soro_oi"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/am"
+                android:id="@+id/soro_oi_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/aam"
+                android:src="@raw/soro_oirabot"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -437,26 +401,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/sa"
+                android:id="@+id/soro_o"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_10"
+                android:src="@raw/soro_oo"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/am"
+                android:id="@+id/soro_o_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/aam"
+                android:src="@raw/soro_oisorjo"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -482,26 +442,22 @@ android:layout_height="match_parent">
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/sa"
+                android:id="@+id/soro_ou"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_11"
+                android:src="@raw/soro_ou"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/am"
+                android:id="@+id/soro_ou_img"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/aam"
+                android:src="@raw/soro_ousudh"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 

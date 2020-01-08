@@ -68,7 +68,7 @@
                 android:layout_height="246dp"
                 android:layout_row="0"
                 android:layout_column="1"
-                android:src="@drawable/b_1" />
+                android:src="@raw/soro_o" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -79,8 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:background="@drawable/previous"
-                    ></Button>
+                    android:background="@drawable/previous" />
 
                 <Space
                     android:layout_width="20dp"
@@ -92,8 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:background="@drawable/next"
-                    ></Button>
+                    android:background="@drawable/next" />
 
             </LinearLayout>
 

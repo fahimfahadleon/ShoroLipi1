@@ -8,7 +8,7 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:columnCount="1"
         android:rowCount="2"
         android:alignmentMode="alignMargins"
@@ -31,26 +31,21 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/ko"
+                    android:id="@+id/ban_ko"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_12"
+                    android:src="@raw/ban_ko"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
-
                 <ImageView
                     android:id="@+id/kola"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a45"
+                    android:src="@raw/ban_ko_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -85,14 +80,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/ga"
+                    android:id="@+id/ban_kho"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_14"
+                    android:src="@raw/ban_kho"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -100,11 +94,10 @@
                     android:id="@+id/ga1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_kho_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -130,14 +123,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/gha"
+                    android:id="@+id/ban_go"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_15"
+                    android:src="@raw/ban_go"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -145,11 +137,10 @@
                     android:id="@+id/gha1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_go_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -175,14 +166,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/ungo"
+                    android:id="@+id/ban_gho"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_16"
+                    android:src="@raw/ban_gho"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -190,11 +180,10 @@
                     android:id="@+id/ungo1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_gho_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -220,14 +209,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/ca"
+                    android:id="@+id/ban_ungo"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_17"
+                    android:src="@raw/ban_ungo"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -235,11 +223,10 @@
                     android:id="@+id/ca1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_ungo_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -265,14 +252,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/cha"
+                    android:id="@+id/ban_ca"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_18"
+                    android:src="@raw/ban_ca"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -280,11 +266,10 @@
                     android:id="@+id/cha1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_ca_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -310,14 +295,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/jo"
+                    android:id="@+id/ban_cha"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_19"
+                    android:src="@raw/ban_cha"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -325,11 +309,10 @@
                     android:id="@+id/jo1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_cha_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -355,14 +338,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/jha"
+                    android:id="@+id/ban_jo"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_20"
+                    android:src="@raw/ban_jo"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -370,11 +352,10 @@
                     android:id="@+id/jha1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_jo_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -400,14 +381,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/ingo"
+                    android:id="@+id/ban_jha"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_21"
+                    android:src="@raw/ban_jha"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -415,11 +395,10 @@
                     android:id="@+id/ingo1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_jha_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -445,14 +424,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/Ta"
+                    android:id="@+id/ban_ingo"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_22"
+                    android:src="@raw/ban_ingo"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -460,11 +438,10 @@
                     android:id="@+id/Ta1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_ingo_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -490,14 +467,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/Tha"
+                    android:id="@+id/ban_ta"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_23"
+                    android:src="@raw/ban_ta"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -505,11 +481,10 @@
                     android:id="@+id/Tha1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_to_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -535,14 +510,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/Da"
+                    android:id="@+id/ban_tha"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_24"
+                    android:src="@raw/ban_tha"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -550,11 +524,10 @@
                     android:id="@+id/Da1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_tho_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -580,14 +553,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/Dha"
+                    android:id="@+id/ban_da"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_25"
+                    android:src="@raw/ban_da"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -595,11 +567,10 @@
                     android:id="@+id/Dha1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_da_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -625,14 +596,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/mno"
+                    android:id="@+id/ban_dha"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_26"
+                    android:src="@raw/ban_dha"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -640,11 +610,10 @@
                     android:id="@+id/mno1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_dho_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -670,14 +639,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/ta"
+                    android:id="@+id/ban_mordhanno"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_27"
+                    android:src="@raw/ban_mordhanno"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -685,11 +653,10 @@
                     android:id="@+id/ta1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_mordhanno_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -715,14 +682,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/tha"
+                    android:id="@+id/ban_tta"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_28"
+                    android:src="@raw/ban_tta"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -730,11 +696,10 @@
                     android:id="@+id/tha1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_tta_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -760,14 +725,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/da"
+                    android:id="@+id/ban_ttha"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_29"
+                    android:src="@raw/ban_ttha"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -775,11 +739,10 @@
                     android:id="@+id/da1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_ttha_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -805,14 +768,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/dha"
+                    android:id="@+id/ban_dda"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_30"
+                    android:src="@raw/ban_dda"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -820,11 +782,10 @@
                     android:id="@+id/dha1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_ddo_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -850,14 +811,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/no"
+                    android:id="@+id/ban_ddha"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_31"
+                    android:src="@raw/ban_ddha"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -865,11 +825,10 @@
                     android:id="@+id/no1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_ddho_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -895,14 +854,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/po"
+                    android:id="@+id/ban_dontanno"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_32"
+                    android:src="@raw/ban_dontanno"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -910,11 +868,10 @@
                     android:id="@+id/po1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_mordhanno_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -940,14 +897,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/pho"
+                    android:id="@+id/ban_po"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_33"
+                    android:src="@raw/ban_po"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -955,11 +911,10 @@
                     android:id="@+id/pho1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_po_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -985,14 +940,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/bo"
+                    android:id="@+id/ban_pho"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_34"
+                    android:src="@raw/ban_pho"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1000,11 +954,10 @@
                     android:id="@+id/bo1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_fo_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1030,14 +983,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/vo"
+                    android:id="@+id/ban_bo"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_35"
+                    android:src="@raw/ban_bo"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1045,11 +997,10 @@
                     android:id="@+id/vo1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_bo_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1075,14 +1026,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/mo"
+                    android:id="@+id/ban_bho"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_36"
+                    android:src="@raw/ban_bho"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1090,11 +1040,10 @@
                     android:id="@+id/mo1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_vo_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1120,14 +1069,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/ojo"
+                    android:id="@+id/ban_mo"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_37"
+                    android:src="@raw/ban_mo"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1135,11 +1083,10 @@
                     android:id="@+id/ojo1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_mo_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1165,14 +1112,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/ra"
+                    android:id="@+id/ban_ontorjo"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_38"
+                    android:src="@raw/ban_ontorjo"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1180,11 +1126,10 @@
                     android:id="@+id/ra1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_ja_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1210,14 +1155,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/lo"
+                    android:id="@+id/ban_ro"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_39"
+                    android:src="@raw/ban_ro"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1225,11 +1169,10 @@
                     android:id="@+id/lo1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_ra_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1255,14 +1198,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/sh"
+                    android:id="@+id/ban_lo"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_40"
+                    android:src="@raw/ban_lo"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1270,11 +1212,10 @@
                     android:id="@+id/sh1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_la_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1300,14 +1241,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/SH"
+                    android:id="@+id/ban_talbosso"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_41"
+                    android:src="@raw/ban_talbosso"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1315,11 +1255,10 @@
                     android:id="@+id/SH1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_talbossa_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1345,14 +1284,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/Sh"
+                    android:id="@+id/ban_mordhansho"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_42"
+                    android:src="@raw/ban_mordhansho"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1360,11 +1298,10 @@
                     android:id="@+id/Sh1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_mordhansho_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1390,14 +1327,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/ho"
+                    android:id="@+id/ban_dontosso"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_43"
+                    android:src="@raw/ban_dontosso"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1405,11 +1341,10 @@
                     android:id="@+id/ho1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_dontosso_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1435,14 +1370,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/Ro"
+                    android:id="@+id/ban_ho"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_44"
+                    android:src="@raw/ban_ho"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1450,11 +1384,10 @@
                     android:id="@+id/Ro1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_hoo_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1480,14 +1413,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/Orho"
+                    android:id="@+id/ban_rro"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_45"
+                    android:src="@raw/ban_rro"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1495,11 +1427,10 @@
                     android:id="@+id/Orho1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_rro_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1525,14 +1456,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/o"
+                    android:id="@+id/ban_rrho"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_46"
+                    android:src="@raw/ban_rrho"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1540,11 +1470,10 @@
                     android:id="@+id/o1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_rrho_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1570,14 +1499,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/HOS"
+                    android:id="@+id/ban_ontosto"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_47"
+                    android:src="@raw/ban_ontosto"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1585,11 +1513,10 @@
                     android:id="@+id/HOS1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_ontosto_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1615,14 +1542,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/Oho"
+                    android:id="@+id/ban_hosento"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_48"
+                    android:src="@raw/ban_hosento"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1630,11 +1556,10 @@
                     android:id="@+id/Oho1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_hosento_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1660,14 +1585,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/ONG"
+                    android:id="@+id/ban_onessor"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_49"
+                    android:src="@raw/ban_onessor"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1675,11 +1599,10 @@
                     android:id="@+id/ONG1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_onessor_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1705,14 +1628,13 @@
                 android:weightSum="5.0">
 
                 <ImageView
-                    android:id="@+id/Bis"
+                    android:id="@+id/ban_bisargo"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/b_50"
+                    android:src="@raw/ban_bisargo"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1720,11 +1642,10 @@
                     android:id="@+id/Bis1"
                     android:layout_width="128dp"
                     android:layout_height="94dp"
-                    android:layout_row="0"
-                    android:layout_column="0"
+
                     android:layout_marginStart="136dp"
                     android:layout_marginLeft="136dp"
-                    android:src="@drawable/a51"
+                    android:src="@raw/ban_bisargo_img"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1744,14 +1665,13 @@
             android:weightSum="5.0">
 
             <ImageView
-                android:id="@+id/cand"
+                android:id="@+id/ban_condrobindu"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
+
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/b_13"
+                android:src="@raw/ban_condrobindu"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -1759,11 +1679,9 @@
                 android:id="@+id/cand1"
                 android:layout_width="128dp"
                 android:layout_height="94dp"
-                android:layout_row="0"
-                android:layout_column="0"
                 android:layout_marginStart="136dp"
                 android:layout_marginLeft="136dp"
-                android:src="@drawable/a51"
+                android:src="@raw/ban_condrobindu_img"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
