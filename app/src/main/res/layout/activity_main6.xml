@@ -1677,6 +1677,7 @@
 
             <ImageView
                 android:id="@+id/cand1"
+                android:onClick=""
                 android:layout_width="128dp"
                 android:layout_height="94dp"
                 android:layout_marginStart="136dp"
